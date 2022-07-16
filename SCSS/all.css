@@ -176,6 +176,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 996px;
+  margin: 0 auto;
   padding-bottom: 8px;
   padding-top: 24px;
   padding-bottom: 8px;
@@ -270,6 +272,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 996px;
+  margin: 0 auto;
   padding-bottom: 8px;
   padding-top: 24px;
   padding-bottom: 8px;
