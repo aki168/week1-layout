@@ -36,12 +36,12 @@
   line-height: 30px;
 }
 
-@mixin cneter-title{
+@mixin center-title{
   border-bottom:1px solid $white;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 996px;
+  width: 83%;
   margin: 0 auto;
   padding-bottom: 8px;
 

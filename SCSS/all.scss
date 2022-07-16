@@ -91,7 +91,7 @@ body {
   margin-bottom: 64px;
 
   &__title {
-    @include cneter-title;
+    @include center-title;
     padding-top: 24px;
     padding-bottom: 8px;
     margin-bottom: 40px;
@@ -100,7 +100,7 @@ body {
   &__menu {
     border-left: 1px solid $white;
     padding-left: 23px;
-    width: 225px;
+    max-width: 225px;
     margin: 0 auto;
 
     &__item {    
@@ -162,7 +162,7 @@ body {
   color: $white;
 
   &__title {
-    @include cneter-title;
+    @include center-title;
     padding-top: 24px;
     padding-bottom: 8px;
     margin-bottom: 24px;
