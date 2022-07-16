@@ -1,0 +1,58 @@
+@mixin container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@mixin title{
+  border-bottom:1px solid $black ;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+
+  &--cn{
+    font-weight:medium;
+    font-size: $text-l;
+    padding-right: 16px;
+    line-height: 48px;
+  }
+  &--en{
+    font-family: $font-family-SF;
+    font-weight: 600;
+    font-size: $text-m;
+    color:$wine;
+    line-height: 36px;
+  }
+}
+
+@mixin content {
+  font-weight: 300;
+  font-size: $text-m;
+  line-height: 36px;
+}
+
+@mixin content-s {
+  font-weight: 300;
+  font-size: $text-s;
+  line-height: 30px;
+}
+
+@mixin cneter-title{
+  border-bottom:1px solid $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+
+  &--cn{
+    font-weight:medium;
+    line-height: 48px;
+    font-size: $text-l;
+    padding-right: 16px;
+  }
+  &--en{
+    font-family: $font-family-SF;
+    font-size: $text-m;
+    color:$white;
+  }
+  
+}

@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+*,
+*::before,
+*::after {
+  Box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #000;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 40px;
+}
+.header__title {
+  font-size: 80px;
+  font-family: "SF Pro";
+  line-height: 95px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 48px;
+}
+.header__pic {
+  height: 324px;
+  width: 324px;
+  background-image: url("../public/photo.png");
+  margin-bottom: 48px;
+}
+
+.profile {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 64px;
+}
+.profile__title {
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.profile__title--cn {
+  font-weight: medium;
+  font-size: 32px;
+  padding-right: 16px;
+  line-height: 48px;
+}
+.profile__title--en {
+  font-family: "SF Pro";
+  font-weight: 600;
+  font-size: 24px;
+  color: #A00404;
+  line-height: 36px;
+}
+.profile__content {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 16px;
+}
+.profile__content li {
+  margin-bottom: 24px;
+}
+
+.education {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 64px;
+}
+.education li {
+  line-height: 48px;
+}
+.education__title {
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.education__title--cn {
+  font-weight: medium;
+  font-size: 32px;
+  padding-right: 16px;
+  line-height: 48px;
+}
+.education__title--en {
+  font-family: "SF Pro";
+  font-weight: 600;
+  font-size: 24px;
+  color: #A00404;
+  line-height: 36px;
+}
+.education__content {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 16px;
+}
+
+.skill {
+  background: #415165;
+  color: #fff;
+  padding-bottom: 40px;
+  margin-bottom: 64px;
+}
+.skill__title {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+}
+.skill__title--cn {
+  font-weight: medium;
+  line-height: 48px;
+  font-size: 32px;
+  padding-right: 16px;
+}
+.skill__title--en {
+  font-family: "SF Pro";
+  font-size: 24px;
+  color: #fff;
+}
+.skill__menu {
+  border-left: 1px solid #fff;
+  padding-left: 23px;
+  width: 225px;
+  margin: 0 auto;
+}
+.skill__menu__item {
+  font-family: "SF Pro";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.skill__menu__item:last-child {
+  margin-bottom: 0;
+}
+
+.work {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 80px;
+}
+.work ul {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+}
+.work li {
+  margin-bottom: 24px;
+}
+.work__title {
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.work__title--cn {
+  font-weight: medium;
+  font-size: 32px;
+  padding-right: 16px;
+  line-height: 48px;
+}
+.work__title--en {
+  font-family: "SF Pro";
+  font-weight: 600;
+  font-size: 24px;
+  color: #A00404;
+  line-height: 36px;
+}
+.work__content {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+.work__content__title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.work__content__text {
+  max-width: 642px;
+}
+.work__content__pic {
+  width: 100px;
+  height: 100px;
+}
+
+.contact {
+  background: #415165;
+  color: #fff;
+}
+.contact__title {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+.contact__title--cn {
+  font-weight: medium;
+  line-height: 48px;
+  font-size: 32px;
+  padding-right: 16px;
+}
+.contact__title--en {
+  font-family: "SF Pro";
+  font-size: 24px;
+  color: #fff;
+}
+.contact__menu {
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.contact__menu__item {
+  text-align: center;
+  font-family: "SF Pro";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.contact__iconlist {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.contact__iconlist__item {
+  padding: 0 12px;
+}/*# sourceMappingURL=all.css.map */
