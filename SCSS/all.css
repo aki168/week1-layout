@@ -62,12 +62,6 @@ img {
   vertical-align: middle;
 }
 
-*,
-*::before,
-*::after {
-  Box-sizing: border-box;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -166,7 +160,7 @@ body {
 }
 
 .skill {
-  background: #415165;
+  background-color: #415165;
   color: #fff;
   padding-bottom: 40px;
   margin-bottom: 64px;
@@ -176,7 +170,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 996px;
+  width: 83%;
   margin: 0 auto;
   padding-bottom: 8px;
   padding-top: 24px;
@@ -197,7 +191,7 @@ body {
 .skill__menu {
   border-left: 1px solid #fff;
   padding-left: 23px;
-  width: 225px;
+  max-width: 225px;
   margin: 0 auto;
 }
 .skill__menu__item {
@@ -264,7 +258,7 @@ body {
 }
 
 .contact {
-  background: #415165;
+  background-color: #415165;
   color: #fff;
 }
 .contact__title {
@@ -272,7 +266,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 996px;
+  width: 83%;
   margin: 0 auto;
   padding-bottom: 8px;
   padding-top: 24px;
@@ -301,6 +295,13 @@ body {
   font-weight: 300;
   line-height: 36px;
   margin-bottom: 16px;
+}
+.contact__menu__item a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact__menu__item a:hover {
+  color: #96A9C4;
 }
 .contact__iconlist {
   display: flex;
